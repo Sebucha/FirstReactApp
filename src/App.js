@@ -4,7 +4,7 @@ import CountdownTimer from './components/Countdown';
 function App() {
   return (
     <div className="App">
-      <CountdownTimer props={11111111111111}></CountdownTimer>
+      <CountdownTimer date={new Date("09.22.2022")}></CountdownTimer>
     </div>
   );
 }
